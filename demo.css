@@ -64,17 +64,14 @@ ul{
 
 li{
 	/* 每个缩略图都是li元素 */
-	width:60px;
+	width:54px;
 	display:inline-block;
 	list-style:none;
 	height:45px;
+	padding:5px 9px 4px;
 	overflow:hidden;
 }
 
-li.inact:hover{
-	/* 非活动状态，在鼠标上突出显示 */
-	background:url(img/pic_bg.png) repeat;
-}
 
 li.act,li.act:hover{
 	/* 活跃状态 */
@@ -85,24 +82,10 @@ li.act a{
 	cursor:default;
 }
 
-.fbar{
-	/* 最左边的垂直条，第一个缩略图旁边 */
-	width:2px;
-	background:url(img/divider.png) no-repeat right;
-}
 
-li a{
-	display:block;
-	background:url(img/divider.png) no-repeat right;
-	height:35px;
-	padding-top:10px;
-}
+li a{ display:block; height:36px; }
 
-ul > li > a img{
-	width:36px;
-	height: 36px;
-	border:none;
-}
+ul > li > a img{ width:36px; height: 36px; }
 
 
 /* The styles below are only necessary for the demo page */
