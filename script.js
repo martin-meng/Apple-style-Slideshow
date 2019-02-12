@@ -67,7 +67,7 @@ $(document).ready(function(){
 
 	// 滑块会自动前进的秒数:
 	
-	var changeEvery = 10;
+	var changeEvery = 4;
 
 	var itvl = setInterval(function(){autoAdvance()},changeEvery*1000);
 
